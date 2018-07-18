@@ -1,0 +1,115 @@
+<multistatus xmlns="DAV:">
+    <response>
+        <href>personium-localbox:/</href>
+        <propstat>
+            <prop>
+                <creationdate>2018-07-18T13:33:47.640+0000</creationdate>
+                <getlastmodified>Wed, 18 Jul 2018 13:33:47 GMT</getlastmodified>
+                <resourcetype>
+                    <collection/>
+                </resourcetype>
+                <acl xmlns:p="urn:x-personium:xmlns"/>
+            </prop>
+            <status>HTTP/1.1 200 OK</status>
+        </propstat>
+    </response>
+    <response>
+        <href>personium-localbox:/Engine</href>
+        <propstat>
+            <prop>
+                <creationdate>2018-07-18T13:33:54.414+0000</creationdate>
+                <getlastmodified>Wed, 18 Jul 2018 13:34:43 GMT</getlastmodified>
+                <resourcetype>
+                    <collection/>
+                    <p:service xmlns:p="urn:x-personium:xmlns"/>
+                </resourcetype>
+                <acl xml:base="https://demo.personium.io/dixonsiu/__role/TestCookie/" xmlns:p="urn:x-personium:xmlns">
+                    <ace>
+                        <principal>
+                            <all/>
+                        </principal>
+                        <grant>
+                            <privilege>
+                                <exec xmlns="" xmlns:ns3="DAV:"/>
+                            </privilege>
+                        </grant>
+                    </ace>
+                </acl>
+                <p:service language="JavaScript" subject="engine" xmlns:p="urn:x-personium:xmlns" xmlns:D="DAV:" xmlns:Z="http://www.w3.com/standards/z39.50/">
+                    <p:path name="test" src="test.js"/>
+                </p:service>
+            </prop>
+            <status>HTTP/1.1 200 OK</status>
+        </propstat>
+    </response>
+    <response>
+        <href>personium-localbox:/Engine/__src</href>
+        <propstat>
+            <prop>
+                <creationdate>2018-07-18T13:33:54.415+0000</creationdate>
+                <getlastmodified>Wed, 18 Jul 2018 13:33:54 GMT</getlastmodified>
+                <resourcetype>
+                    <collection/>
+                </resourcetype>
+                <acl xmlns:p="urn:x-personium:xmlns"/>
+            </prop>
+            <status>HTTP/1.1 200 OK</status>
+        </propstat>
+    </response>
+    <response>
+        <href>personium-localbox:/Engine/__src/underscore.js</href>
+        <propstat>
+            <prop>
+                <creationdate>2018-07-18T13:34:19.921+0000</creationdate>
+                <getcontentlength>58343</getcontentlength>
+                <getcontenttype>application/javascript</getcontenttype>
+                <getlastmodified>Wed, 18 Jul 2018 13:34:19 GMT</getlastmodified>
+                <resourcetype/>
+                <acl xmlns:p="urn:x-personium:xmlns"/>
+            </prop>
+            <status>HTTP/1.1 200 OK</status>
+        </propstat>
+    </response>
+    <response>
+        <href>personium-localbox:/Engine/__src/test.js</href>
+        <propstat>
+            <prop>
+                <creationdate>2018-07-18T13:34:22.514+0000</creationdate>
+                <getcontentlength>1825</getcontentlength>
+                <getcontenttype>application/javascript</getcontenttype>
+                <getlastmodified>Wed, 18 Jul 2018 13:34:22 GMT</getlastmodified>
+                <resourcetype/>
+                <acl xmlns:p="urn:x-personium:xmlns"/>
+            </prop>
+            <status>HTTP/1.1 200 OK</status>
+        </propstat>
+    </response>
+    <response>
+        <href>personium-localbox:/Engine/__src/acc_info.js</href>
+        <propstat>
+            <prop>
+                <creationdate>2018-07-18T13:34:28.657+0000</creationdate>
+                <getcontentlength>1190</getcontentlength>
+                <getcontenttype>application/javascript</getcontenttype>
+                <getlastmodified>Wed, 18 Jul 2018 13:34:28 GMT</getlastmodified>
+                <resourcetype/>
+                <acl xmlns:p="urn:x-personium:xmlns"/>
+            </prop>
+            <status>HTTP/1.1 200 OK</status>
+        </propstat>
+    </response>
+    <response>
+        <href>personium-localbox:/Engine/__src/personium.js</href>
+        <propstat>
+            <prop>
+                <creationdate>2018-07-18T13:34:25.635+0000</creationdate>
+                <getcontentlength>8904</getcontentlength>
+                <getcontenttype>application/javascript</getcontenttype>
+                <getlastmodified>Wed, 18 Jul 2018 13:34:25 GMT</getlastmodified>
+                <resourcetype/>
+                <acl xmlns:p="urn:x-personium:xmlns"/>
+            </prop>
+            <status>HTTP/1.1 200 OK</status>
+        </propstat>
+    </response>
+</multistatus>
